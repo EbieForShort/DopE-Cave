@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -3533,10 +3533,10 @@ TextureImporter:
       Biome1Bg3_0: -164854122
       Biome1Bg3_27: -241665465
       Biome1Bg3_20: 1789377005
-      Biome1Bg3_29: -845779113
-      Biome1Bg3_57: 1112745637
       Biome1Bg3_31: 329582532
+      Biome1Bg3_57: 1112745637
       Biome1Bg3_51: -847989479
+      Biome1Bg3_29: -845779113
       Biome1Bg3_23: -498905101
       Biome1Bg3_62: -1157918004
       Biome1Bg3_134: -1027711188
@@ -3576,11 +3576,11 @@ TextureImporter:
       Biome1Bg3_42: -1749238772
       Biome1Bg3_48: 960201700
       Biome1Bg3_33: -742674870
-      Biome1Bg3_139: 365334137
       Biome1Bg3_158: 1139872295
-      Biome1Bg3_41: 242752697
+      Biome1Bg3_139: 365334137
       Biome1Bg3_18: 1932951133
       Biome1Bg3_64: -1862956273
+      Biome1Bg3_41: 242752697
       Biome1Bg3_94: -1792234592
       Biome1Bg3_156: -866651874
       Biome1Bg3_101: 1855741242

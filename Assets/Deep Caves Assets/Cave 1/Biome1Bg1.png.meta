@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -3901,9 +3901,9 @@ TextureImporter:
       Biome1Bg1_102: -166441418
       Biome1Bg1_88: 986647029
       Biome1Bg1_52: -1413964874
+      Biome1Bg1_66: 837660668
       Biome1Bg1_78: 153076349
       Biome1Bg1_61: 405863654
-      Biome1Bg1_66: 837660668
       Biome1Bg1_73: 1855429698
       Biome1Bg1_98: 601507065
       Biome1Bg1_121: 824109193
