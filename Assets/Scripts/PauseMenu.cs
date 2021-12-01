@@ -18,7 +18,7 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.Escape)) // If the key is pressed then the game will pause if not it wont.
         {
             if (isPaused)
             {
@@ -33,26 +33,22 @@ public class PauseMenu : MonoBehaviour
 
     public void PauseGame()
     {
-        pauseMenu.SetActive(true);
+        pauseMenu.SetActive(true); // Pauses the game and its time.
         Time.timeScale = 0f;
         isPaused = true;
     }
 
     public void ResumeGame()
     {
-        pauseMenu?.SetActive(false);
+        pauseMenu?.SetActive(false); // Takes the player to current game.
         Time.timeScale = 1f;
         isPaused = false;
     }
 
     public void GoToMainMenu()
     {
-        Time.timeScale = 1f;
+        Time.timeScale = 1f; // Sends the player to the main menu.
         SceneManager.LoadScene(0);
     }
 
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
 }
